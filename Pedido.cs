@@ -1,3 +1,4 @@
+using System; 
 namespace Aula20Ifood
 {
     public class Pedido
@@ -6,18 +7,27 @@ namespace Aula20Ifood
 
         public string[] Itens { get; set; }
 
-        public string Cliente { get; set; } 
+        public Cliente Cliente { get; set; } 
 
-        public string Restaurante { get; set; }
+        public Restaurante Restaurante { get; set; }
 
         public string FormaDePagamento { get; set; }
 
         public bool PedidoPago { get; set; }
 
+        public DateTime DataEntrega { get; set; }
         
 
         public string EntregarPedido(){
-            return $"O pedido foi  entregue por {Restaurante}, para o cliente {Cliente}.";
+           
+            DataEntrega = DateTime.Now;
+
+           string retorno = "Pedido entregue! \n";
+            retorno += Restaurante.MostrarDados();
+            retorno += Cliente.MostrarDados();
+            retorno += DataEntrega;
+
+            return retorno;
             
         }
 
