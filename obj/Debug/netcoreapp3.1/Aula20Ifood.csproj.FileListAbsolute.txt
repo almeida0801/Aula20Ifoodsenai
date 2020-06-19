@@ -1,0 +1,4 @@
+C:\Users\pc\Downloads\Projeto\Aula20Ifood\obj\Debug\netcoreapp3.1\Aula20Ifood.csprojAssemblyReference.cache
+C:\Users\pc\Downloads\Projeto\Aula20Ifood\obj\Debug\netcoreapp3.1\Aula20Ifood.csproj.CoreCompileInputs.cache
+C:\Users\pc\Downloads\Projeto\Aula20Ifood\obj\Debug\netcoreapp3.1\Aula20Ifood.AssemblyInfoInputs.cache
+C:\Users\pc\Downloads\Projeto\Aula20Ifood\obj\Debug\netcoreapp3.1\Aula20Ifood.AssemblyInfo.cs
